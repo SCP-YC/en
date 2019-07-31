@@ -1,0 +1,443 @@
+/* 字体设置 */
+@font-face {
+    font-family: "Bauhaus LT Demi";
+    src: url("../fonts/BauhausLTDemi.woff") format("woff");
+}
+
+/* 背景设置 */
+body {
+    background-image: url("../images/body_bg.png");
+    background-repeat: repeat-x;
+}
+
+/* 顶栏设置 */
+header {
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-position-x: 20%;
+    background-position-y: 20%;
+    background-size: 5%;
+    height: 140px;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+header #title {
+    color: #eee;
+    font-family: "Bauhaus LT Demi", Simhei;
+    font-size: 44px;
+    text-shadow: 3px 3px 5px black;
+    margin-left: 25%;
+}
+header a {
+    text-decoration: none;
+}
+header h1 {
+    margin-top: -5px;
+}
+header h2 {
+    color: #f0f0c0;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+    margin-left: 25%;
+    margin-top: -20px;
+}
+
+/* 弹出式菜单设置 */
+#popup-menu {
+    position: absolute;
+    top: 140px;
+    right: 25%;
+}
+.popup-group {
+    position: relative;
+    float: right;
+    font-size: 90%;
+    font-family: verdana, arial;
+}
+.popup-button {
+    background-color: transparent;
+    color: white;
+    height: 21px;
+    overflow: hidden;
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
+    cursor: pointer;
+}
+.popup-item {
+    position: absolute;
+    left: 0;
+    min-width: 160px;
+    border: solid 1px #666;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    border-top: 0;
+}
+.popup-item a {
+    display: block;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.popup-group:hover .popup-button {
+    background-color: #eee;
+    color: #a01;
+    height: auto;
+    border-left: solid 1px #404040;
+}
+.popup-group .popup-item {
+    display: none;
+}
+.popup-group:hover .popup-item {
+    display: block;
+    background-color: #eee;
+    border-width: 0px 1px 1px 1px;
+}
+.popup-group:hover .popup-item a {
+    color: #a01;
+}
+.popup-group:hover .popup-button:hover {
+    background-color: white;
+}
+.popup-group:hover .popup-item a:hover {
+    background-color: white;
+}
+
+/* sidebar设置 */
+#sidebar {
+    float: left;
+    margin-left: 20%;
+    width: 12.5%;
+}
+.side-block {
+    background: white;
+    border: 1px solid #660000;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 6px rgba(102, 0, 0, 0.5);
+    margin-bottom: 15px;
+    width: 100%;
+}
+.side-block .side-head {
+    color: #600;
+    border-bottom: 1px solid #600;
+    font-size: 8pt;
+    font-weight: bold;
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
+.side-block .side-item {
+    margin: 2px 0;
+}
+.side-block a {
+    color: #b01;
+    font-size: 8pt;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 2px;
+}
+.side-block a:hover {
+    text-decoration: underline;
+}
+.side-block a:visited {
+    color: #824;
+}
+.subtext {
+    color: #666;
+    font-size: 8pt;
+}
+#begin-news {
+    background-color: #f0fff6;
+}
+
+/* main-content设置 */
+#main-content {
+    margin-left: 40%;
+    margin-right: 25%;
+    margin-bottom: 15%;
+}
+hr {
+    color: #ddd;
+    margin: 1em 2em;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+/* wiki文章设置 */
+#main-content #page-title {
+    border-bottom: 1px solid #bbb;
+    font-family: verdana, arial;
+    font-size: 1.6em;
+    color: #901;
+}
+#main-content #page-content {
+    font-family: verdana, arial;
+}
+#main-content #page-content .content-panel h1 {
+    color: #901;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: "Trebuchet MS";
+}
+.content-panel {
+    border: 1px solid #888880;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5), 
+        inset 0 1px rgba(255,255,255,0.3), 
+        inset 0 10px rgba(255,255,255,0.2), 
+        inset 0 10px 20px rgba(255,255,255,0.25), 
+        inset 0 -15px 30px rgba(0,0,0,0.1);
+    background-color: #fcfdfb;
+    margin: 2% 0 3%;
+    padding: 0 3%;
+}
+.content-panel a {
+    color: #b01;
+    text-decoration: none;
+}
+.content-panel a:hover {
+    text-decoration: underline;
+}
+.content-panel a:visited {
+    color: #824;
+}
+.content-panel ul {
+    list-style: square;
+}
+.content-panel ul li {
+    font-size: 0.8em;
+}
+.content-panel ul li a {
+    color: #b01;
+    text-decoration: none;
+}
+.content-panel ul li a:hover {
+    text-decoration: underline;
+}
+.content-panel ul li a:visited {
+    color: #824;
+}
+blockquote {
+    border: 1px dashed #999;
+    padding: 0 1em;
+    background-color: #f4f4f4;
+}
+#page-content {
+    font-size: 0.8em;
+}
+#page-content > h1 {
+    color: #901;
+    font-size: 3.8em;
+    font-weight: bold;
+    font-family: "Trebuchet MS";
+    text-align: center;
+    margin: 0 0 0.6em;
+}
+#page-content > h2 {
+    color: #333;
+    font-weight: normal;
+    text-align: center;
+    margin: 0.5em 0 0.4em;
+}
+#page-content p {
+    color: #333;
+}
+#page-content ul {
+    list-style: square;
+}
+#page-content sup {
+    color: #b01;
+    font-family: verdana, arial;
+}
+#page-content sup:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+#page-content ol {
+    list-style-type: none;
+    counter-reset: li;
+}
+#page-content ol li {
+    counter-increment: li;
+}
+#page-content ol li::before {
+    content: counter(li);
+    color: #b01;
+    display: inline-block;
+    width: 1.6em;
+    margin-left: -2.0em;
+    margin-right: 0.4em;
+    text-align: right;
+}
+#page-content .sup-tip {
+    display: inline-block;
+    position: relative;
+}
+#page-content .sup-tip .tip {
+    visibility: hidden;
+    width: 600px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -300px;
+}
+#page-content .sup-tip:hover .tip {
+    visibility: visible;
+}
+/* 折叠内容设置 */
+.folder .check {
+    position: absolute;
+    clip: rect(0 0 0 0);
+}
+.fold-info,
+.unfold-info {
+    color: #b01;
+	cursor: pointer;
+}
+.fold-info:hover,
+.unfold-info:hover {
+    text-decoration: underline;
+}
+.folder .fold-info {
+    display: inline-block;
+}
+.unfold-info {
+    display: none;
+}
+.folder .check:checked ~ .fold-info {
+    display: none;
+}
+.folder .check:checked ~ .unfold-info {
+    display: inline-block;
+}
+.folder .fold-element {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.folder .check:checked ~ .fold-element {
+    height: auto;
+    opacity: 1;
+}
+
+/* wiki-walk设置 */
+.wiki-walk {
+    text-align: center;
+    font-size: 0.6em;
+    font-weight: bold;
+    font-family: verdana, arial;
+}
+#main-content a {
+    color: #b01;
+    text-decoration: none;
+}
+#main-content a:hover {
+    text-decoration: underline;
+}
+#main-content a:visited {
+    color: #824;
+}
+
+/* content-toc设置 */
+#content-toc {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 20px 0 5px 5px;
+    white-space: nowrap;
+    box-shadow: inset 1px 2px 6px rgba(0,0,0,0.15);
+    float: right;
+    padding: 10px 15px;
+}
+#content-toc * {
+    display: block;
+}
+
+/* 移动端适配 */
+/* Mobile View */
+#open-menu {
+    display: none;
+}
+@media (max-width: 769px) {
+#open-menu {
+    display: block;
+}
+#close-menu {
+    display: none;
+}
+#open-menu a {
+    background-color: #fff;
+    color: #888;
+    text-decoration: none;
+    font-size: 30px;
+    position: fixed;
+    top: 0.5em;
+    left: 0.5em;
+    width: 30px;
+    height: 30px;
+    line-height: 0.9em;
+    text-align: center;
+    border: 0.2em solid #888;
+    border-radius: 3em;
+    font-family: 'Nanum Gothic', san-serif;
+    font-weight: 700;
+}
+#sidebar {
+    background-color: #b88686;
+    width: 60%;
+    min-height: 100%;
+    height: 100%;
+    overflow-y: auto;
+    position: fixed;
+    left: -85%;
+    top: 0;
+    padding-left: 3%;
+    padding-top: 3%;
+    transition: 0.5s;
+    z-index: 2;
+}
+#sidebar .side-block {
+    width: 85%;
+}
+#sidebar:target {
+    left: -20%;
+}
+#close-menu {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#sidebar:target #close-menu {
+    display: block;
+    z-index: -1;
+}
+header {
+    background-size: 15%;
+    background-position-x: 10%;
+    background-position-y: 5%;
+    margin-top: 11%;
+}
+header #title {
+    font-size: 100%;
+}
+#main-content {
+    position: absolute;
+    left: 4%;
+    width: 92%;
+    margin-left: 0;
+}
+#popup-menu {
+    z-index: 2;
+}
+#main-content {
+    z-index: -1;
+}
+}
