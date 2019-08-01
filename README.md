@@ -1,3 +1,3 @@
-# SCP-YC.github.io
+# SCP-YC.github.io/en/
 
-SCP基金会YC分站。
+SCP Foundation YC Branch English Site.
