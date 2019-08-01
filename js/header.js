@@ -6,26 +6,26 @@ function initHeader() {
     '    <header>' +
     '        <h1>' +
     '            <a href="../index.html">' +
-    '                <span id="title">SCP基金会 YC分部</span>' +
+    '                <span id="title">SCP Foundation - YC Branch</span>' +
     '            </a>' +
     '        </h1>' +
-    '        <h2>控制，收容，保护</h2>' +
+    '        <h2>Secure, Contain, Protect</h2>' +
     '        <nav id="popup-menu">' +
     '            <div class="popup-group">' +
-    '                <span class="popup-button">背景资料</span>' +
+    '                <span class="popup-button">Background</span>' +
     '            </div>' +
     '            <div class="popup-group">' +
-    '                <span class="popup-button">故事</span>' +
+    '                <span class="popup-button">Tales</span>' +
     '            </div>' +
     '            <div class="popup-group">' +
-    '                <span class="popup-button">图书馆</span>' +
+    '                <span class="popup-button">Library</span>' +
     '            </div>' +
     '            <div class="popup-group">' +
-    '                <span class="popup-button">SCP-YC系列</span>' +
+    '                <span class="popup-button">SCP-YC Series</span>' +
     '                <div class="popup-item">' +
-    '                    <a href="series-1.html">YC系列 Ⅰ (YC-001 - YC-999)</a>' +
-    '                    <a href="#">» YC系列 Ⅰ 故事</a>' +
-    '                    <a href="#">搞笑SCP-YC</a>' +
+    '                    <a href="series-1.html">YC Series Ⅰ (YC-001 - YC-999)</a>' +
+    '                    <a href="#">» YC Series Ⅰ Tales</a>' +
+    '                    <a href="#">Joke SCP-YCs</a>' +
     '                </div>' +
     '            </div>' +
     '        </nav>' +

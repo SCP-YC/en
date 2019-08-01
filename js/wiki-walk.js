@@ -3,7 +3,7 @@ var page_num = 5;
 function addZero(num, addStr = '', appendStr = '') {
     if (num < 1 || num > page_num) {
         if (addStr === 'scp-yc-') return '#';
-        return '无';
+        return 'None';
     }
     let str = num.toString();
     while (str.length < 3) {

@@ -5,34 +5,34 @@ function initSidebar() {
     sidebar.outerHTML = '' +
     '    <div id="sidebar">' +
     '        <aside id="begin-news" class="side-block">' +
-    '            <div class="side-head">新人资讯</div>' +
-    '            <div class="side-item"><img src="../icons/help.png"><a href="#">新手指南</a></div>' +
-    '            <div class="side-item"><img src="../icons/help.png"><a href="#">网站站规</a></div>' +
-    '            <div class="side-item"><img src="../icons/main.png"><a href="#">加入网站</a></div>' +
-    '            <div class="side-item"><img src="../icons/help.png"><a href="#">如何撰写一篇SCP文档</a></div>' +
-    '            <div class="side-item"><img src="../icons/default.png"><a href="#">SCP-YC沙盒站</a></div>' +
-    '            <div class="side-item"><img src="../icons/help.png"><a href="#">常见问题解答</a></div>' +
+    '            <div class="side-head">Newbie\'s Info</div>' +
+    '            <div class="side-item"><img src="../icons/help.png"><a href="#">Guide for Newbies</a></div>' +
+    '            <div class="side-item"><img src="../icons/help.png"><a href="#">Site Rules</a></div>' +
+    '            <div class="side-item"><img src="../icons/main.png"><a href="#">Join the Site!</a></div>' +
+    '            <div class="side-item"><img src="../icons/help.png"><a href="#">How to write an SCP</a></div>' +
+    '            <div class="side-item"><img src="../icons/default.png"><a href="#">SCP-YC Sandbox Site</a></div>' +
+    '            <div class="side-item"><img src="../icons/help.png"><a href="#">FAQ</a></div>' +
     '        </aside>' +
     '        <aside id="index" class="side-block">' +
-    '            <div class="side-item"><img src="../icons/home.png"><a href="index.html">主页</a></div>' +
+    '            <div class="side-item"><img src="../icons/home.png"><a href="index.html">Main</a></div>' +
     '' +
-    '            <div class="side-head">SCP资料库</div>' +
-    '            <div class="side-item"><img src="../icons/series.png"><a href="series-1.html">SCP-YC系列 Ⅰ</a><span class="subtext">(001 - 999)</span></div>' +
+    '            <div class="side-head">SCP Library</div>' +
+    '            <div class="side-item"><img src="../icons/series.png"><a href="series-1.html">SCP-YC Series I</a><span class="subtext">(001 - 999)</span></div>' +
     '' +
-    '            <div class="side-head">网站</div>' +
-    '            <div class="side-item"><img src="../icons/default.png"><a href="#">最近新增的页面</a></div>' +
-    '            <div class="side-item"><img src="../icons/main.png"><a href="javascript: randomSCP();">随机SCP</a> | <a href="#">故事</a></div>' +
-    '            <div class="side-item"><img src="../icons/default.png"><a href="#">最近的更新</a> | <a href="#">修改的页面</a></div>' +
-    '            <div class="side-item"><img src="../icons/default.png"><a href="#">最高评分的页面</a></div>' +
-    '            <div class="side-item"><img src="../icons/default.png"><a href="#">最低评分的页面</a></div>' +
+    '            <div class="side-head">Discover Content</div>' +
+    '            <div class="side-item"><img src="../icons/default.png"><a href="#">Recently Created Pages</a></div>' +
+    '            <div class="side-item"><img src="../icons/main.png"><a href="javascript: randomSCP();">Random SCP</a> | <a href="#">Tale</a></div>' +
+    '            <div class="side-item"><img src="../icons/default.png"><a href="#">Recent Changes</a> | <a href="#">Edits</a></div>' +
+    '            <div class="side-item"><img src="../icons/default.png"><a href="#">Highest Rated Pages</a></div>' +
+    '            <div class="side-item"><img src="../icons/default.png"><a href="#">Lowest Rated Pages</a></div>' +
     '' +
-    '            <div class="side-head">社交</div>' +
-    '            <div class="side-item"><img src="../icons/forum.png"><a href="#">讨论区</a> | <a href="#">最近发帖</a></div>' +
-    '            <div class="side-item"><img src="../icons/help.png"><a href="#">批评守则</a></div>' +
-    '            <div class="side-item"><img src="../icons/default.png"><a href="#">成员页</a> | <a href="#">YC分部成员页</a></div>' +
+    '            <div class="side-head">SCP Community</div>' +
+    '            <div class="side-item"><img src="../icons/forum.png"><a href="#">Forum</a> | <a href="#">New Posts</a></div>' +
+    '            <div class="side-item"><img src="../icons/help.png"><a href="#">Criticism Policy</a></div>' +
+    '            <div class="side-item"><img src="../icons/default.png"><a href="#">Member\'s Pages</a> | <a href="#">YC</a></div>' +
     '' +
-    '            <div class="side-head">相关网站</div>' +
-    '            <div class="side-item"><img src="../icons/default.png"><a href="#">SCP基金会YC讨论论坛</a></div>' +
+    '            <div class="side-head">Related Pages</div>' +
+    '            <div class="side-item"><img src="../icons/default.png"><a href="#">SCP Foundation YC Discussion Forum</a></div>' +
     '        </aside>' +
     '        <a id="close-menu" href="#"></a>' +
     '    </div>';
