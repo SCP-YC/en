@@ -1,0 +1,35 @@
+[33mcommit cfa3e177dc821cc87bd6bc9cb4589ae3668bf50e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: chenmaster05 <38460778+chenmaster05@users.noreply.github.com>
+Date:   Thu Aug 1 22:27:16 2019 +1000
+
+    Update index.html
+
+[33mcommit 4fa4a327575a90d5058f4912d2e1e25e91d18467[m
+Author: Chen <452082@clarendon.vic.edu.au>
+Date:   Thu Aug 1 22:17:41 2019 +1000
+
+    Translated all Chinese pages and updated README.md
+
+[33mcommit 4498647adb4d2e0524d94d7111606c1933d8079e[m
+Author: 0And1Story <37762083+0And1Story@users.noreply.github.com>
+Date:   Thu Aug 1 10:57:35 2019 +0800
+
+    Update README.md
+
+[33mcommit dd65a8d7e872ab7b7ed1c8e041f90598a2cb1b3d[m
+Author: 0And1Story <witherman233@gmail.com>
+Date:   Wed Jul 31 13:12:59 2019 +0800
+
+    删除中文网页
+
+[33mcommit 3d1b05448b4836e0cff914cc200fbe126dff940d[m
+Author: 0And1Story <witherman233@gmail.com>
+Date:   Wed Jul 31 13:04:37 2019 +0800
+
+    搬运站点
+
+[33mcommit 7aa069344a66f78d5fdf11c0bf9ca571ac26d189[m
+Author: SCP-YC <53177403+SCP-YC@users.noreply.github.com>
+Date:   Wed Jul 31 12:59:53 2019 +0800
+
+    Initial commit
